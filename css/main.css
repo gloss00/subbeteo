@@ -1,0 +1,72 @@
+body {
+    background: #000;
+    box-sizing: border-box;
+}
+
+canvas {
+    background: #286C31;
+    display: block;
+    border: 10px solid #d9d9d9;
+}
+
+
+.content-wrapper {
+    width: 820px;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.winnerScreen{
+    background-color: black;
+    width: 800px;;
+    height: 500px;
+    position: absolute;
+    top: 8px;
+    left: 310px;
+    z-index: 1;
+    padding: 10px;
+    display: none;
+    visibility: none;
+}
+
+.teamImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 75%;
+    border-radius: 20px;
+    border: 5px solid #FAFAFB;
+}
+
+.teamText {
+    color: #E01C23;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+.teamSubText {
+    color: #E01C23;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 0;
+}
